@@ -1,0 +1,10 @@
+image:
+  repository: "devinforr/devops-project"
+  tag: "v0.0.0"    # CI will update this field
+service:
+  type: ClusterIP
+  port: 3306
+mysql:
+  host: mysql
+  user: appuser
+  passwordSecret: my-app-db-secret
