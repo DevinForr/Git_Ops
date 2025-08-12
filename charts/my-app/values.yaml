@@ -1,5 +1,5 @@
 image:
-  repository: "devinforr/devops-project"
+  repository: "devinforr/N01724010_FINAL_EXAM"
   tag: "v0.0.0"    # CI will update this field
 service:
   type: ClusterIP
